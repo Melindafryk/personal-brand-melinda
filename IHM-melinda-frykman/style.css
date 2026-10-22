@@ -813,8 +813,8 @@ body {
     z-index: -1;
     inset: 0 auto 0 50%;
     width: 100vw;
-    background-image: linear-gradient(rgba(20, 12, 8, 0.38), rgba(20, 12, 8, 0.38)), url("header bild.png");
-    background-position: center 42%;
+    background-image: linear-gradient(rgba(20, 12, 8, 0.42), rgba(20, 12, 8, 0.42)), url("header-bild-2.png");
+    background-position: center 25%;
     background-size: cover;
     content: "";
     transform: translateX(-50%);
@@ -1179,6 +1179,10 @@ body.morkt .projekt-text h3 {
         right: 0;
         width: 100%;
         transform: none;
+    }
+
+    .intro::before {
+        background-position: center 18%;
     }
 
     /* 2. Generell sektionsluft */
